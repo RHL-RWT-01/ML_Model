@@ -20,6 +20,3 @@ model.fit(xs, ys, epochs=50)
 prediction_input = np.array([10.0])  # Convert the list to a numpy array
 prediction = model.predict(prediction_input)
 print(prediction)
-
-
-
